@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: Ola Smart IPTV",
+  "description": "A lightweight, rapid-loading IPTV player built specifically for Android TV, utilizing Xtream Codes API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

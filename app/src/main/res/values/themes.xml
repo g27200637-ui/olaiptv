@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar" />
+
+    <!-- Theme for the Native Splash Screen API -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Background of the splash screen -->
+        <item name="windowSplashScreenBackground">#060103</item>
+        <!-- Icon that will be animated/displayed -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
+        <!-- Theme of the activity after splash screen is dismissed -->
+        <item name="postSplashScreenTheme">@style/Theme.MyApplication</item>
+    </style>
+</resources>
